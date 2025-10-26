@@ -139,3 +139,8 @@
 ## Logo Adjustments
 - [x] Increase logo size in hero section and center it
 
+
+
+## Hero Section Logo
+- [x] Remove logo from hero section
+
