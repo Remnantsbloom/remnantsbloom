@@ -89,4 +89,112 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+// Product queries
+export async function getAllProducts() {
+  const db = await getDb();
+  if (!db) return [];
+  const { products } = await import("../drizzle/schema");
+  return db.select().from(products);
+}
+
+export async function getFeaturedProducts() {
+  const db = await getDb();
+  if (!db) return [];
+  const { products } = await import("../drizzle/schema");
+  const { eq } = await import("drizzle-orm");
+  return db.select().from(products).where(eq(products.featured, 1));
+}
+
+export async function getProductById(id: number) {
+  const db = await getDb();
+  if (!db) return undefined;
+  const { products } = await import("../drizzle/schema");
+  const result = await db.select().from(products).where(eq(products.id, id)).limit(1);
+  return result.length > 0 ? result[0] : undefined;
+}
+
+export async function getProductsByCategory(category: string) {
+  const db = await getDb();
+  if (!db) return [];
+  const { products } = await import("../drizzle/schema");
+  return db.select().from(products).where(eq(products.category, category));
+}
+
+// Cart queries
+export async function getCartItems(userId?: number, sessionId?: string) {
+  const db = await getDb();
+  if (!db) return [];
+  const { cartItems, products } = await import("../drizzle/schema");
+  const { and, or } = await import("drizzle-orm");
+  
+  const conditions = [];
+  if (userId) conditions.push(eq(cartItems.userId, userId));
+  if (sessionId) conditions.push(eq(cartItems.sessionId, sessionId));
+  
+  if (conditions.length === 0) return [];
+  
+  return db
+    .select({
+      id: cartItems.id,
+      productId: cartItems.productId,
+      quantity: cartItems.quantity,
+      configuration: cartItems.configuration,
+      product: products,
+    })
+    .from(cartItems)
+    .leftJoin(products, eq(cartItems.productId, products.id))
+    .where(or(...conditions));
+}
+
+export async function addToCart(data: {
+  userId?: number;
+  sessionId?: string;
+  productId: number;
+  quantity: number;
+  configuration?: string;
+}) {
+  const db = await getDb();
+  if (!db) return null;
+  const { cartItems } = await import("../drizzle/schema");
+  
+  const result = await db.insert(cartItems).values({
+    userId: data.userId,
+    sessionId: data.sessionId,
+    productId: data.productId,
+    quantity: data.quantity,
+    configuration: data.configuration,
+  });
+  
+  return result;
+}
+
+export async function updateCartItemQuantity(id: number, quantity: number) {
+  const db = await getDb();
+  if (!db) return null;
+  const { cartItems } = await import("../drizzle/schema");
+  
+  return db.update(cartItems).set({ quantity }).where(eq(cartItems.id, id));
+}
+
+export async function removeFromCart(id: number) {
+  const db = await getDb();
+  if (!db) return null;
+  const { cartItems } = await import("../drizzle/schema");
+  
+  return db.delete(cartItems).where(eq(cartItems.id, id));
+}
+
+export async function clearCart(userId?: number, sessionId?: string) {
+  const db = await getDb();
+  if (!db) return null;
+  const { cartItems } = await import("../drizzle/schema");
+  const { or } = await import("drizzle-orm");
+  
+  const conditions = [];
+  if (userId) conditions.push(eq(cartItems.userId, userId));
+  if (sessionId) conditions.push(eq(cartItems.sessionId, sessionId));
+  
+  if (conditions.length === 0) return null;
+  
+  return db.delete(cartItems).where(or(...conditions));
+}
