@@ -159,3 +159,8 @@
 ## Hero Section Further Adjustment
 - [x] Reduce padding even more to pull content higher
 
+
+
+## Bug Fixes - Navigation
+- [x] Fix "View All Products" link to navigate to shop page
+
