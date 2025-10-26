@@ -75,7 +75,7 @@ export default function Shop() {
 
       <main className="flex-1">
         {/* Hero Banner */}
-        <div className="relative h-64 md:h-80 overflow-hidden mb-12 gradient-bg">
+        <div className="relative h-64 md:h-80 overflow-hidden mb-12 bg-white">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/bBHxXZiluFEWYuDy.png"
             alt="Handcrafted Soaps"
