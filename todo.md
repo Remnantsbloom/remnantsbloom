@@ -144,3 +144,8 @@
 ## Hero Section Logo
 - [x] Remove logo from hero section
 
+
+
+## Background Gradient Updates
+- [x] Update hero section gradient to match reference image (mint → cream/yellow → lavender)
+

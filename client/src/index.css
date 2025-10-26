@@ -140,12 +140,12 @@
 }
 
 @layer components {
-  /* Soft gradient background for hero sections - mint to cream with subtle purple tint */
+  /* Soft gradient background for hero sections - mint to cream/yellow to lavender */
   .gradient-bg {
-    background: linear-gradient(135deg, 
-      oklch(0.98 0.02 150) 0%,    /* Very light mint */
-      oklch(0.99 0.01 60) 50%,     /* Cream */
-      oklch(0.97 0.015 300) 100%   /* Very light purple tint */
+    background: linear-gradient(to right, 
+      oklch(0.95 0.05 150) 0%,     /* Soft mint green */
+      oklch(0.97 0.03 90) 50%,      /* Cream/pale yellow */
+      oklch(0.94 0.04 300) 100%     /* Light lavender/purple */
     );
   }
 
