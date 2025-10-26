@@ -108,3 +108,8 @@
 - [x] Update home page hero section to use soft mint/cream gradient background
 - [x] Ensure purple accents match reference image
 
+
+
+## Footer Updates
+- [x] Change footer background to black with white text
+
