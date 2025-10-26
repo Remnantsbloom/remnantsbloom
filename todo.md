@@ -154,3 +154,8 @@
 ## Hero Section Spacing
 - [x] Reduce top padding to bring content up
 
+
+
+## Hero Section Further Adjustment
+- [x] Reduce padding even more to pull content higher
+
