@@ -118,3 +118,8 @@
 ## Button Styling Updates
 - [x] Change "Our Story" button in hero section to purple with white text (matching "Shop Now" button)
 
+
+
+## Product Image Updates
+- [x] Replace Orange Grove Lavender soap image with new version
+

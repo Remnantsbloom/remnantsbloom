@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE products SET imageUrl = 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/CagWroHSabJodGZN.png' WHERE name = 'Orange Grove Lavender Soap'",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3pckBUcfk32JAND.root --database UCCzLN8Vsrp5hwCzJ8jirs --execute UPDATE products SET imageUrl = 'https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/CagWroHSabJodGZN.png' WHERE name = 'Orange Grove Lavender Soap'",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 91
+}
