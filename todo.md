@@ -164,3 +164,8 @@
 ## Bug Fixes - Navigation
 - [x] Fix "View All Products" link to navigate to shop page
 
+
+
+## Shop Page Image Adjustment
+- [x] Adjust banner image to show full picture without cropping
+

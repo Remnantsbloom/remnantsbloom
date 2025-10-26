@@ -75,11 +75,11 @@ export default function Shop() {
 
       <main className="flex-1">
         {/* Hero Banner */}
-        <div className="relative h-64 md:h-80 overflow-hidden mb-12">
+        <div className="relative h-64 md:h-80 overflow-hidden mb-12 bg-gradient-to-r from-mint/20 via-cream/20 to-lavender/20">
           <img
             src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/bBHxXZiluFEWYuDy.png"
             alt="Handcrafted Soaps"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
             <div className="text-center text-white">
