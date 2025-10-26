@@ -101,3 +101,10 @@
 - [x] Replace NaturalBeautyandArtisanSkincare image in Home Experience section with different image
 - [x] Relocate NaturalBeautyandArtisanSkincare image to another page
 
+
+
+## Color Scheme Updates
+- [x] Change blue backgrounds to white throughout the site
+- [x] Update home page hero section to use soft mint/cream gradient background
+- [x] Ensure purple accents match reference image
+
