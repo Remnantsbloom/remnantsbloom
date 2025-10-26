@@ -174,3 +174,8 @@
 ## Shop Banner Background Update
 - [x] Change banner background to match Our Story page gradient
 
+
+
+## Blog Page Image Fix
+- [x] Fix blog section images being cut off at the top
+
