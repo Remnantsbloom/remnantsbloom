@@ -16,7 +16,7 @@ export default function Home() {
       
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="gradient-bg py-16 md:py-24">
+        <section className="gradient-bg py-12 md:py-20">
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>

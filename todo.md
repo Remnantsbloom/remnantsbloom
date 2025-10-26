@@ -149,3 +149,8 @@
 ## Background Gradient Updates
 - [x] Update hero section gradient to match reference image (mint → cream/yellow → lavender)
 
+
+
+## Hero Section Spacing
+- [x] Reduce top padding to bring content up
+
