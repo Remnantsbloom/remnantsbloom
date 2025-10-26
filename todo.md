@@ -134,3 +134,8 @@
 ## Hero Section Updates
 - [x] Add Remnant's Bloom logo above "Handcrafted with Love" badge
 
+
+
+## Logo Adjustments
+- [x] Increase logo size in hero section and center it
+
