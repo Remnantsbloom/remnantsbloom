@@ -90,3 +90,8 @@
 ## Style Updates
 - [x] Change navigation buttons from colorful to black
 
+
+
+## Content Enhancements
+- [x] Add lifestyle images throughout the website (About, Blog, Shop, Home pages)
+

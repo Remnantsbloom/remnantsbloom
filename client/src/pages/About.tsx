@@ -27,7 +27,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <img
-                  src="/about.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/kFrUkmuKbkQkUSSr.png"
                   alt="Handcrafted soap making process"
                   className="rounded-lg shadow-xl w-full"
                 />

@@ -73,16 +73,25 @@ export default function Shop() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 py-12">
-        <div className="container">
-          {/* Page Header */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Soap Collection</h1>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Discover our complete range of handcrafted cold-press soaps, each made with natural
-              ingredients and traditional methods for the perfect cleansing experience.
-            </p>
+      <main className="flex-1">
+        {/* Hero Banner */}
+        <div className="relative h-64 md:h-80 overflow-hidden mb-12">
+          <img
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/bBHxXZiluFEWYuDy.png"
+            alt="Handcrafted Soaps"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <div className="text-center text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Soap Collection</h1>
+              <p className="text-lg max-w-2xl mx-auto px-4">
+                Discover our complete range of handcrafted cold-press soaps
+              </p>
+            </div>
           </div>
+        </div>
+
+        <div className="container py-8">
 
           <div className="grid lg:grid-cols-4 gap-8">
             {/* Filters Sidebar */}

@@ -12,7 +12,7 @@ export default function Blog() {
         "Discover why traditional cold-process soap making creates the most nourishing bars for your skin.",
       date: "March 15, 2024",
       author: "Remnant's Bloom Team",
-      image: "/experience.png",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/vromwTbvBHqokayT.png",
     },
     {
       title: "Essential Oils vs. Fragrance Oils: What's the Difference?",
@@ -20,7 +20,7 @@ export default function Blog() {
         "Learn about the differences between essential oils and fragrance oils, and how we choose what goes into our products.",
       date: "March 10, 2024",
       author: "Remnant's Bloom Team",
-      image: "/about.png",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/ElSUQbolSZKIhifo.png",
     },
     {
       title: "How to Make Your Handmade Soap Last Longer",
@@ -28,7 +28,7 @@ export default function Blog() {
         "Simple tips and tricks to extend the life of your artisan soap bars and get the most value from each purchase.",
       date: "March 5, 2024",
       author: "Remnant's Bloom Team",
-      image: "/hero.png",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/bBHxXZiluFEWYuDy.png",
     },
   ];
 
