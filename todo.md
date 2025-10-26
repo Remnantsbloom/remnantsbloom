@@ -184,3 +184,8 @@
 ## Shop Banner Background Change
 - [x] Change shop banner background from gradient to white
 
+
+
+## Shop Page Full Background
+- [x] Change entire Shop page background to white (not just banner)
+

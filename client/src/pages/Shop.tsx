@@ -73,7 +73,7 @@ export default function Shop() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1">
+      <main className="flex-1 bg-white">
         {/* Hero Banner */}
         <div className="relative h-64 md:h-80 overflow-hidden mb-12 bg-white">
           <img
