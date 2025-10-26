@@ -53,7 +53,7 @@ export default function Home() {
                     </Button>
                   </Link>
                   <Link href="/about">
-                    <Button size="lg" variant="outline">
+                    <Button size="lg" className="bg-primary hover:bg-primary/90">
                       Our Story
                     </Button>
                   </Link>

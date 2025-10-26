@@ -113,3 +113,8 @@
 ## Footer Updates
 - [x] Change footer background to black with white text
 
+
+
+## Button Styling Updates
+- [x] Change "Our Story" button in hero section to purple with white text (matching "Shop Now" button)
+
