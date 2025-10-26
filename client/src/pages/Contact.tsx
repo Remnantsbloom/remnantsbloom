@@ -186,6 +186,45 @@ export default function Contact() {
               </Card>
             </div>
           </div>
+
+          {/* Why Choose Us Section with Image */}
+          <section className="mt-16">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl font-bold mb-6">Why Choose Remnant's Bloom?</h2>
+                <p className="text-muted-foreground mb-4">
+                  We're passionate about creating natural, handcrafted skincare products that are
+                  good for you and the planet. Every product is made with love, using only the
+                  finest natural ingredients.
+                </p>
+                <ul className="space-y-3 text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">✓</span>
+                    <span>100% natural and organic ingredients</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">✓</span>
+                    <span>Handcrafted in small batches for quality</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">✓</span>
+                    <span>Eco-friendly and sustainable practices</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">✓</span>
+                    <span>Perfect for all skin types, especially sensitive</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <img
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/wyofqBxJVEMPIylp.png"
+                  alt="Natural handcrafted skincare products"
+                  className="rounded-lg shadow-xl w-full"
+                />
+              </div>
+            </div>
+          </section>
         </div>
       </main>
 

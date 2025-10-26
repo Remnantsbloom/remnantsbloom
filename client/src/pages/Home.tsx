@@ -181,7 +181,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <img
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/wyofqBxJVEMPIylp.png"
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663031533487/ElSUQbolSZKIhifo.png"
                   alt="Woman enjoying handcrafted soap collection"
                   className="rounded-lg shadow-xl w-full"
                 />

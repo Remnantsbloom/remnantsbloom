@@ -95,3 +95,9 @@
 ## Content Enhancements
 - [x] Add lifestyle images throughout the website (About, Blog, Shop, Home pages)
 
+
+
+## Image Updates
+- [x] Replace NaturalBeautyandArtisanSkincare image in Home Experience section with different image
+- [x] Relocate NaturalBeautyandArtisanSkincare image to another page
+
