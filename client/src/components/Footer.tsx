@@ -21,31 +21,23 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/shop">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Shop
-                  </a>
+                <Link href="/shop" className="text-gray-300 hover:text-primary transition-colors">
+                  Shop
                 </Link>
               </li>
               <li>
-                <Link href="/about">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Our Story
-                  </a>
+                <Link href="/about" className="text-gray-300 hover:text-primary transition-colors">
+                  Our Story
                 </Link>
               </li>
               <li>
-                <Link href="/faq">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    FAQ
-                  </a>
+                <Link href="/faq" className="text-gray-300 hover:text-primary transition-colors">
+                  FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Contact
-                  </a>
+                <Link href="/contact" className="text-gray-300 hover:text-primary transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -56,31 +48,23 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Policies</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/privacy">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Privacy Policy
-                  </a>
+                <Link href="/privacy" className="text-gray-300 hover:text-primary transition-colors">
+                  Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Terms & Conditions
-                  </a>
+                <Link href="/terms" className="text-gray-300 hover:text-primary transition-colors">
+                  Terms & Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/refund">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Refund Policy
-                  </a>
+                <Link href="/refund" className="text-gray-300 hover:text-primary transition-colors">
+                  Refund Policy
                 </Link>
               </li>
               <li>
-                <Link href="/shipping">
-                  <a className="text-gray-300 hover:text-primary transition-colors">
-                    Shipping Policy
-                  </a>
+                <Link href="/shipping" className="text-gray-300 hover:text-primary transition-colors">
+                  Shipping Policy
                 </Link>
               </li>
             </ul>

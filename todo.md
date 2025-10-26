@@ -189,3 +189,10 @@
 ## Shop Page Full Background
 - [x] Change entire Shop page background to white (not just banner)
 
+
+
+
+## Footer Nested Anchor Tag Error
+- [x] Fix nested anchor tags in Footer component (Link already renders <a>, remove inner <a> tags)
+
+
