@@ -169,3 +169,8 @@
 ## Shop Page Image Adjustment
 - [x] Adjust banner image to show full picture without cropping
 
+
+
+## Shop Banner Background Update
+- [x] Change banner background to match Our Story page gradient
+
