@@ -35,16 +35,12 @@ export default function Header() {
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-2">
+          <nav className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
-                <Button
-                  variant="default"
-                  size="sm"
-                  className="bg-black hover:bg-gray-800 text-white font-medium"
-                >
+                <span className="text-black hover:text-primary transition-colors font-medium cursor-pointer">
                   {item.label}
-                </Button>
+                </span>
               </Link>
             ))}
           </nav>
@@ -68,16 +64,12 @@ export default function Header() {
         </div>
 
         {/* Mobile Navigation */}
-        <nav className="md:hidden flex flex-wrap gap-2 pb-4">
+        <nav className="md:hidden flex flex-wrap gap-4 pb-4">
           {navItems.map((item) => (
             <Link key={item.path} href={item.path}>
-              <Button
-                variant="default"
-                size="sm"
-                className="bg-black hover:bg-gray-800 text-white font-medium text-xs"
-              >
+              <span className="text-black hover:text-primary transition-colors font-medium cursor-pointer text-sm">
                 {item.label}
-              </Button>
+              </span>
             </Link>
           ))}
         </nav>

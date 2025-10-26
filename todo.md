@@ -123,3 +123,9 @@
 ## Product Image Updates
 - [x] Replace Orange Grove Lavender soap image with new version
 
+
+
+## Header Navigation Updates
+- [x] Remove black button backgrounds from navigation links
+- [x] Display navigation as simple black text links instead of buttons
+
