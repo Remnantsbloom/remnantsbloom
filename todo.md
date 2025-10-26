@@ -129,3 +129,8 @@
 - [x] Remove black button backgrounds from navigation links
 - [x] Display navigation as simple black text links instead of buttons
 
+
+
+## Hero Section Updates
+- [x] Add Remnant's Bloom logo above "Handcrafted with Love" badge
+

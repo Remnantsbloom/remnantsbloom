@@ -20,6 +20,9 @@ export default function Home() {
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
+                <div className="mb-6">
+                  <img src="/logo.png" alt="Remnant's Bloom" className="h-16 w-auto mb-3" />
+                </div>
                 <p className="text-primary font-medium mb-4 flex items-center gap-2">
                   <Leaf className="h-5 w-5" />
                   Handcrafted with Love
