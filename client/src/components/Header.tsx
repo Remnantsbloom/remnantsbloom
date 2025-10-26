@@ -23,7 +23,7 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/">
-            <a className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <div className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <img src={APP_LOGO} alt="Remnant's Bloom" className="h-12 w-auto" />
               <div className="flex items-baseline gap-1">
                 <span className="text-2xl font-['Dancing_Script'] font-semibold text-foreground">
@@ -31,7 +31,7 @@ export default function Header() {
                 </span>
                 <span className="text-2xl font-bold text-foreground">BLOOM</span>
               </div>
-            </a>
+            </div>
           </Link>
 
           {/* Navigation */}

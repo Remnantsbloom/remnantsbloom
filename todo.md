@@ -80,3 +80,8 @@
 - [x] Test product configuration options
 - [x] Create checkpoint for deployment
 
+
+
+## Bug Fixes
+- [x] Fix nested anchor tags in Header component (Link wrapping <a>)
+
