@@ -9,12 +9,12 @@ export default function Header() {
   const cartCount = cartItems?.reduce((sum, item) => sum + (item.quantity || 0), 0) || 0;
 
   const navItems = [
-    { label: "Home", path: "/", color: "bg-blue-500 hover:bg-blue-600" },
-    { label: "Shop", path: "/shop", color: "bg-yellow-500 hover:bg-yellow-600" },
-    { label: "Our Story", path: "/about", color: "bg-purple-500 hover:bg-purple-600" },
-    { label: "Blog", path: "/blog", color: "bg-teal-500 hover:bg-teal-600" },
-    { label: "FAQ", path: "/faq", color: "bg-pink-500 hover:bg-pink-600" },
-    { label: "Contact", path: "/contact", color: "bg-purple-600 hover:bg-purple-700" },
+    { label: "Home", path: "/" },
+    { label: "Shop", path: "/shop" },
+    { label: "Our Story", path: "/about" },
+    { label: "Blog", path: "/blog" },
+    { label: "FAQ", path: "/faq" },
+    { label: "Contact", path: "/contact" },
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function Header() {
                 <Button
                   variant="default"
                   size="sm"
-                  className={`${item.color} text-white font-medium`}
+                  className="bg-black hover:bg-gray-800 text-white font-medium"
                 >
                   {item.label}
                 </Button>
@@ -74,7 +74,7 @@ export default function Header() {
               <Button
                 variant="default"
                 size="sm"
-                className={`${item.color} text-white font-medium text-xs`}
+                className="bg-black hover:bg-gray-800 text-white font-medium text-xs"
               >
                 {item.label}
               </Button>

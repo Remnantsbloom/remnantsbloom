@@ -85,3 +85,8 @@
 ## Bug Fixes
 - [x] Fix nested anchor tags in Header component (Link wrapping <a>)
 
+
+
+## Style Updates
+- [x] Change navigation buttons from colorful to black
+
